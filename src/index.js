@@ -20,7 +20,7 @@ const upload = multer({
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-app.use(cors({credentials:true,origin:'http://127.0.0.1:5173', methods: ['GET', 'PUT', 'POST', 'PATCH']}));
+app.use(cors({credentials:true,origin:'https://glittery-piroshki-020ad0.netlify.app', methods: ['GET', 'PUT', 'POST', 'PATCH']}));
 app.use(cookieParser());
 app.use(express.json());
 
