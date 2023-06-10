@@ -99,7 +99,7 @@ const server = app.listen(PORT, () => {
 const io = require('socket.io')(server, {
     cors: {
         credentials:true,
-        origin:'http://127.0.0.1:5173'
+        origin:'https://glittery-piroshki-020ad0.netlify.app'
     }
 });
 
